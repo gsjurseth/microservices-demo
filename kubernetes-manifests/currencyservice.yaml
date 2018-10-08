@@ -25,7 +25,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: gcr.io/theganyo-playground/microservices-demo-app/currencyservice
+        image: gcr.io/apigee-trashcan-backends/microservices-demo-app/currencyservice
         ports:
         - name: grpc
           containerPort: 7000
